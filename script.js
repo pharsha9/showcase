@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
             ease: "power2.out",
             scrollTrigger: {
                 trigger: item,
-                start: "top 80%",
+                start: "center right",
+                end:"left",
+                scrub:true,
+            
             },
         });
     });
